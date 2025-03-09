@@ -1,0 +1,14 @@
+#container{
+background-color: aqua;
+display:flex;
+height:120%;
+
+}
+
+.div1{
+background-color: white;
+height:50px;
+width:10px;
+margin:10px;
+flex-direction: column-reverse;
+}
