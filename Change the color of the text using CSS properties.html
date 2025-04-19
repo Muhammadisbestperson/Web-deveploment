@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shaping your world in Dreams man</title>
+        <style>
+               .one{
+                border:3px solid black; height: 200px; width:250px;
+              }
+        </style>
+        
+    </head>
+    <body>
+        <h1>change my Rectangle </h1>
+        <div class="one" id="one">
+
+        </div>
+        <button onclick="hide ()"></button>
+        <button onclick="Mydiv ()">circlechange</button>
+        <button onclick="show ()">Undo</button>
+        <button>reform</button>
+        <script>
+let tear= document.getElementById("one");
+            
+        function Mydiv () {
+   tear.style.borderRadius="50%"
+       }
+       function show () {
+  tear.style.display="block"          
+       }
+       function hide () {
+tear.style.display="none"
+
+       }
+ tear.onmouseenter= function bg (){
+tear.style.backgroundColor="Red"
+ }
+ tear.onmouseout= function bg (){
+tear.style.backgroundColor="white"
+ }
+
+     
+        </script>
+    </body>
+</html>
