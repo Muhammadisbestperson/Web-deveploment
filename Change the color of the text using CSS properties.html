@@ -14,10 +14,10 @@
         <div class="one" id="one">
 
         </div>
-        <button onclick="hide ()"></button>
+        <button onclick="hide ()">hide</button>
         <button onclick="Mydiv ()">circlechange</button>
         <button onclick="show ()">Undo</button>
-        <button>reform</button>
+        <button onclick="reform ()">reform</button>
         <script>
 let tear= document.getElementById("one");
             
@@ -37,6 +37,10 @@ tear.style.backgroundColor="Red"
  tear.onmouseout= function bg (){
 tear.style.backgroundColor="white"
  }
+ function reform () {
+  tear.style.borderRadius="0%"
+ }
+ 
 
      
         </script>
