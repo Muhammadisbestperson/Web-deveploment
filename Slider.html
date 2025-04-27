@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+       Daily Images(Using Slider)
+        </title>
+
+    </head>
+    <body>
+        <section>
+
+            <img class="MySlider" src="https://www.shutterstock.com/image-illustration/flags-pakistan-india-divided-diagonally-260nw-453189925.jpg">
+        <img class="MySlider" src="https://media.istockphoto.com/id/1304506620/photo/black-red-abstract-background-reflection-of-light-in-calm-water-blood-red-sunset.jpg?s=612x612&w=0&k=20&c=84FSmIFr6u-giis8l4Xk9deZ86AbbvMDeZySYgiji_Y=">
+        <img class="MySlider" src="https://i.ytimg.com/vi/e6Mgck7q71E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA0RkcRLuaSoabK2KwvEU48kQiDbg">
+        </section>
+        <script>
+            var myindex=0
+            Carousel();
+            function Carousel(){
+                var i;
+                var x= document.getElementsByClassName("MySlider")
+
+                for (i=0; i <  x.length;i++){
+  x [i].style.display="none";
+                }
+   myindex++;
+   if (myindex > x.length) {
+    myindex=1
+   }  
+   x [myindex-1].style.display="block" ;
+ setTimeout(Carousel,3000);
+}           
+        </script>
+    </body>
+</html>
