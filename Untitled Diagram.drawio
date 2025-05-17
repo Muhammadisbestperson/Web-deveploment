@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Page-1" id="2fARwPE2Kpe-aVpqFrNt">
+    <mxGraphModel dx="1106" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8OMv-l1ZQOukxinOxgEK-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="270" y="20" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8OMv-l1ZQOukxinOxgEK-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="340" />
+              <mxPoint x="355" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Lamp doesn&#39;t work&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+          <mxGeometry x="250" y="200" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8OMv-l1ZQOukxinOxgEK-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-17" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8OMv-l1ZQOukxinOxgEK-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.1736" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Is lamp plugged&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;in&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="275" y="350" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-12" value="No" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-14" value="Plug in Bulb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8OMv-l1ZQOukxinOxgEK-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-22" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8OMv-l1ZQOukxinOxgEK-20" vertex="1" connectable="0">
+          <mxGeometry x="0.2438" y="5" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-18" value="Bulb burn out?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="285" y="560" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-23" value="Repair lamp" style="rhombus;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="290" y="720" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="614.5" as="sourcePoint" />
+            <mxPoint x="530" y="614.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-27" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8OMv-l1ZQOukxinOxgEK-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.06" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8OMv-l1ZQOukxinOxgEK-28" value="Change lamp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="530" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
