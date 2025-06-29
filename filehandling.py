@@ -1,0 +1,7 @@
+file_obj = open("E:/MBH/Codingal/Myfile.txt","w")
+file_obj.write(" hammad")
+file_obj.close()
+file_obj = open("E:/MBH/Codingal/Myfile.txt","r")
+print("\n Read in Parts \n")
+print(file_obj.read(8))
+file_obj.close()
